@@ -21,12 +21,12 @@ import { activeBreakRoutines, Hotspot, TransitionStep, Routine } from "./data";
 
 const getStepSideStatus = (routId: string, stepIdx: number, mirrored: boolean): string => {
   if (routId === 'cervical') {
-    if (stepIdx === 0 || stepIdx === 3) return 'estándar';
+    if (stepIdx === 0) return 'estándar';
     if (stepIdx === 1) return 'izquierdo';
     if (stepIdx === 2) return 'derecho';
   }
   if (routId === 'rotacion') {
-    if (stepIdx === 0 || stepIdx === 7) return 'estándar';
+    if (stepIdx === 0) return 'estándar';
     if (stepIdx === 1 || stepIdx === 3 || stepIdx === 5) return 'izquierdo';
     if (stepIdx === 2 || stepIdx === 4 || stepIdx === 6) return 'derecho';
   }
@@ -141,7 +141,7 @@ export default function App() {
   const handleSetRoutineIndex = (newIndex: number) => {
     setRoutineIndex(newIndex);
     setActiveStep(0);
-    setPrevStep(currentRoutine.steps.length - 1);
+    setPrevStep(0);
     setPhase('hold');
     const firstStepDuration = getStepHoldDuration(0, newIndex);
     setSecondsRemaining(firstStepDuration);
@@ -222,7 +222,12 @@ export default function App() {
               // Otherwise advance to the next exercise (no wrap-around looping)
               const nextRoutineIdx = routineIndex + 1;
               setRoutineIndex(nextRoutineIdx);
-              setPrevStep(activeStep);
+              // prevStep and sliderValue must be 0 (not the old routine's last step): the
+              // slider would otherwise show/sweep the NEW routine's image stack during
+              // the transition (sliderValue is set in this same batch to avoid a one-frame
+              // flash of the wrong image before the slider effect runs)
+              setPrevStep(0);
+              setSliderValue(0);
               setActiveStep(0);
               setPhase('transition');
               return Math.floor(TRANSITION_DURATION);
@@ -927,7 +932,7 @@ export default function App() {
 
                   return (
                     <div
-                      key={step.index}
+                      key={`${currentRoutine.id}-${step.index}`}
                       className="absolute inset-0 transition-opacity duration-150"
                       style={{
                         opacity,

@@ -244,30 +244,6 @@ export const activeBreakRoutines: Routine[] = [
           }
         ]
       },
-      {
-        index: 3,
-        title: "Postura de inicio nuevamente",
-        subtitle: "Alineación y reseteo final",
-        image: "/images/pose_mid_1_1780271559237.webp",
-        description: "Regrese la cabeza a la posición vertical neutral de manera pausada. Cierre los ojos y asiente las manos, permitiendo que la energía circule renovada por toda la zona cervical.",
-        duration: "10 segundos",
-        actionInstruction: "Regrese suavemente a la postura neutra erguida, relaje los brazos y descanse.",
-        breathingGuidance: "Sostén con una respiración constante",
-        ergonomicsTips: [
-          "Tómese su tiempo para reajustar la postura y no haga movimientos bruscos al salir.",
-          "Sienta los hombros más livianos y relajados tras el ejercicio de pausa.",
-          "Se ha restaurado el flujo circulatorio natural de la columna."
-        ],
-        hotspots: [
-          {
-            id: "neck_cleanse",
-            top: "22%",
-            left: "50%",
-            label: "Alineamiento Restaurado",
-            description: "Cervicales lubricadas y liberadas de la compresión causada por el sedentarismo."
-          }
-        ]
-      }
     ]
   },
   {
@@ -441,29 +417,6 @@ export const activeBreakRoutines: Routine[] = [
           }
         ]
       },
-      {
-        index: 7,
-        title: "Postura de inicio nuevamente",
-        subtitle: "Alineación y reseteo final",
-        image: "/images/pose_start_1780271542525.webp",
-        description: "Regrese la cabeza a la posición neutral central de manera pausada y descanse.",
-        duration: "5 segundos",
-        actionInstruction: "Regrese suavemente a la postura neutra erguida, relaje los brazos y descanse.",
-        breathingGuidance: "Sostén con una respiración constante",
-        ergonomicsTips: [
-          "Tómese su tiempo al volver al centro para evitar mareos leves.",
-          "Respire profundamente sintiendo las cervicales descomprimidas."
-        ],
-        hotspots: [
-          {
-            id: "rot_final_neutral",
-            top: "22%",
-            left: "50%",
-            label: "Eje Central Restaurado",
-            description: "Flujo sanguíneo estimulado y cuello libre de tensiones posturales."
-          }
-        ]
-      }
     ]
   },
   {
