@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/pausa_activa_ADIUM/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
