@@ -771,7 +771,7 @@ export default function App() {
 
               <div className="space-y-2">
                 <span className="text-xs font-extrabold tracking-widest text-[#2f7a59] uppercase block">
-                  ¡Felicidades por cuidar tu cuerpo! 🎉
+                  ¡Felicidades por cuidar tu cuerpo!
                 </span>
                 <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-[#222222] tracking-tight leading-tight">
                   Ciclo de Pausas Finalizado con Éxito
@@ -792,7 +792,7 @@ export default function App() {
 
                 <div className="border-t border-[#f0ece3] pt-5 space-y-3">
                   <p className="text-lg font-bold text-[#222222] leading-relaxed">
-                    "¡Fantástico trabajo cuidando tu salud! Has completado todas las secuencias de estiramiento ."
+                    ¡Fantástico trabajo cuidando tu salud! Has completado todas las secuencias de estiramiento.
                   </p>
                   <p className="text-base text-[#4d4c45] leading-relaxed">
                     Como última recomendación <span className="font-bold text-[#30475c]">ahora desconéctate unos minutos de la pantalla, levántate de tu silla y camina un poco yendo a buscar agua para mantenerte hidratado.</span>
