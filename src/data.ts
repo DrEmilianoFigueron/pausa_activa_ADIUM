@@ -533,7 +533,7 @@ export const activeBreakRoutines: Routine[] = [
       },
       {
         index: 1,
-        title: "Brazo Derecho F2",
+        title: "Brazo Derecho",
         subtitle: "Estiramiento tríceps derecho",
         image: "/images/triceps_derecho.webp",
         description: "Lleve el brazo derecho flexionado por encima y detrás de la cabeza, mientras que la mano contraria ejerce una ligera tracción lateral hacia la izquierda sobre su codo derecho.",
@@ -557,7 +557,7 @@ export const activeBreakRoutines: Routine[] = [
       },
       {
         index: 2,
-        title: "Brazo Izquierdo F3",
+        title: "Brazo Izquierdo",
         subtitle: "Estiramiento tríceps izquierdo",
         image: "/images/triceps_izquierdo.webp",
         description: "Lleve el brazo izquierdo flexionado por encima y detrás de la cabeza, mientras que la mano derecha ejerce una ligera tracción lateral hacia la derecha sobre su codo izquierdo.",
@@ -614,12 +614,12 @@ export const activeBreakRoutines: Routine[] = [
       },
       {
         index: 1,
-        title: "Brazo Derecho F2",
+        title: "Brazo Derecho",
         subtitle: "Elongación deltoides derecho",
         image: "/images/tricep_2_der.webp",
         description: "Estire y cruce el brazo derecho de frente por el pecho. Con la mano o antebrazo izquierdo, sujete el brazo y ejerza una ligera tracción hacia el pecho.",
         duration: "10 segundos",
-        actionInstruction: "Cruce el brazo horizontalmente por delante y sostenga desde el codo con la mano contraria, hacia ti.",
+        actionInstruction: "Cruce el brazo derecho horizontalmente por delante y sostenga desde el codo con la mano contraria, hacia ti.",
         breathingGuidance: "Sostiene relajando los hombros",
         ergonomicsTips: [
           "Mantenga el codo del brazo cruzado a la altura del hombro.",
@@ -638,7 +638,7 @@ export const activeBreakRoutines: Routine[] = [
       },
       {
         index: 2,
-        title: "Brazo Izquierdo F3",
+        title: "Brazo Izquierdo",
         subtitle: "Elongación deltoides izquierdo",
         image: "/images/tricep_2_izq.webp",
         description: "Estire y cruce el brazo izquierdo de frente por el pecho. Con la mano o antebrazo derecho, sujete el brazo y ejerza una ligera tracción hacia el pecho.",
@@ -700,7 +700,7 @@ export const activeBreakRoutines: Routine[] = [
         image: "/images/extensor_der.webp",
         description: "Estire el brazo derecho al frente con la palma hacia abajo. Con la mano izquierda, sujete los dedos derechos y llévelos hacia abajo, sintiendo la tensión en la cara superior del antebrazo.",
         duration: "15 segundos",
-        actionInstruction: "Estire el brazo hacia delante, coloca la palma hacia abajo y con la otra acompaña el movimiento.",
+        actionInstruction: "Estire el brazo derecho hacia delante, coloca la palma hacia abajo y con la otra acompaña el movimiento.",
         breathingGuidance: "Sostiene relajando los hombros",
         ergonomicsTips: [
           "Mantenga el codo completamente extendido.",
@@ -748,7 +748,7 @@ export const activeBreakRoutines: Routine[] = [
         image: "/images/flexor_der.webp",
         description: "Estire el brazo derecho al frente con la palma hacia arriba. Con la mano izquierda, sujete los dedos derechos y llévelos hacia abajo, sintiendo la tensión en la cara inferior del antebrazo.",
         duration: "15 segundos",
-        actionInstruction: "Estire el brazo hacia delante, coloca la palma hacia arriba y con la otra acompaña el movimiento.",
+        actionInstruction: "Estire el brazo derecho hacia delante, coloca la palma hacia arriba y con la otra acompaña el movimiento.",
         breathingGuidance: "Sostiene relajando los hombros",
         ergonomicsTips: [
           "Mantenga el codo completamente extendido.",
