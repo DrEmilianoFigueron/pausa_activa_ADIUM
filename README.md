@@ -2,7 +2,7 @@
 
 Pantalla dinámica de pausas activas para Salud Ocupacional. Guía a los colaboradores a través de un circuito de estiramientos (cuello, espalda, brazos y piernas, con respiración consciente) y un modo de descanso visual basado en la regla 20/20/20.
 
-Desarrollada para ADIUM Uruguay como parte del servicio de asesoría en Salud Ocupacional.
+Desarrollada para ADIUM Uruguay como parte del servicio de asesoría en Salud Ocupacional bajo la contratacion de Insyso
 
 **App en línea:** https://dremilianofigueron.github.io/pausa_activa_ADIUM/
 
