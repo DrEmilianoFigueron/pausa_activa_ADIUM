@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/pausa_activa_ADIUM/',
+    base: process.env.VITE_BASE_PATH || '/pausa_activa_ADIUM/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
